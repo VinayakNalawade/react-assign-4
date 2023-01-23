@@ -1,0 +1,82 @@
+.matchCardContainer {
+  list-style-type: none;
+  width: 31%;
+  background-color: #0f172a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-family: bree serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.matchCardimg {
+  width: 130px;
+  height: 160px;
+  margin-top: 20px;
+}
+
+.matchCardHeading {
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.Lost {
+  color: #e31a1a;
+  font-weight: 300;
+  font-size: 23px;
+}
+
+.Won {
+  color: #18ed66;
+  font-weight: 300;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 768px) {
+  .matchCardContainer {
+    list-style-type: none;
+    width: 47%;
+    background-color: #0f172a;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: bree serif;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .matchCardimg {
+    width: 110px;
+    height: 135px;
+    margin-top: 20px;
+  }
+
+  .matchCardHeading {
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  .Lost {
+    color: #e31a1a;
+    font-weight: 300;
+    font-size: 23px;
+  }
+
+  .Won {
+    color: #18ed66;
+    font-weight: 300;
+    font-size: 23px;
+  }
+
+  .matchCardPara {
+    font-weight: 200;
+    font-size: 15px;
+  }
+}

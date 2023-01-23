@@ -1,0 +1,57 @@
+.cardLinkContainer {
+  text-decoration: none;
+  margin-bottom: 15px;
+  width: 48%;
+}
+
+.cardItemContainer {
+  min-height: 120px;
+  list-style-type: none;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff33;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.cardTeamimg {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.cardTeamHeading {
+  font-weight: 200;
+  font-size: 17px;
+}
+
+@media screen and (min-width: 768px) {
+  .cardLinkContainer {
+    text-decoration: none;
+    margin-bottom: 20px;
+    width: 48%;
+  }
+
+  .cardItemContainer {
+    min-height: 150px;
+    list-style-type: none;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    background-color: #ffffff33;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+  }
+
+  .cardTeamimg {
+    width: 70px;
+    margin-right: 12px;
+  }
+
+  .cardTeamHeading {
+    font-weight: 200;
+    font-size: 25px;
+  }
+}
