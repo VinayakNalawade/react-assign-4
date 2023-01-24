@@ -41,7 +41,7 @@ class Home extends Component {
           <h1 className="dashboardHeading">IPL DASHBOARD</h1>
         </div>
         {isLoading ? (
-          <div className="loader" data-testid="loader">
+          <div testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
